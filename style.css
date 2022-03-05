@@ -1,25 +1,29 @@
-#app {
-    width: 100%;
-    height: 800px;
-    background-color: aliceblue;
-}
-
-.container
+body
 {
     text-align: center;
+   
+}
+.container{
+  background-color: mediumaquamarine;  
+}
+#app {
+    background-color: aliceblue;
 }
 
-#myCarousel{
-    background-color: burlywood;
+#myCarousel
+{
+    background-color: red;
 }
-#myCarousel img{
+
+#myCarousel img
+{
     height: 300px;
-    margin-top: 30px;
-    
+    margin-top: 35px;
 }
-.carousel-inner p{
-    margin-bottom: 15px;
+
+.carousel-inner p
+{
     margin-top: 15px;
-    background-color: aliceblue;
-    font-size:25px;
+    color : white;
+    font-size: 20px;
 }
